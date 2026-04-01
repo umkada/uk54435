@@ -1,0 +1,60 @@
+  body, td {font-size:16px; color:#ffffff; font-family:Arial,Verdana,Luxi Sans,Trebuchet MS,Sans-Serif;}
+  p {text-align:justify; margin-top:0px; margin-bottom:1px;}
+  form {margin-top:0px; margin-bottom:1px;}
+  dir {margin-top:0px; margin-bottom:1px;}
+  a {color:#ffca05; text-decoration:none;}
+  a:hover {color:#fff000; text-decoration:none;}
+  input.text {border:0px; background-color:#ffffff; padding:10px 0 10px 6px; margin:2px 0;}
+  input.checkbox {}
+  input.button {color:#ffffff; background-color:#034ea1; font-size:16px; font-weight:bold; text-transform:uppercase; border:1px solid #ffca05; padding:10px 20px; margin:10px 0;}
+  input.button:hover {color:#ffffff; background-color:#1f88ff;}
+  button.button {color:#ffffff; background-color:#034ea1; font-size:16px; font-weight:bold; text-transform:uppercase; border:1px solid #ffca05; padding:10px 20px; margin:10px 0;}
+  button.button:hover {color:#ffffff; background-color:#1f88ff;}
+  a.button {color:#ffffff; background-color:#034ea1; font-size:16px; font-weight:bold; text-transform:uppercase; border:1px solid #ffca05; padding:10px 20px; margin:10px 0;}
+  a.button:hover {color:#ffffff; background-color:#1f88ff;}
+  .major {color:#ffca05; vertical-align:absmiddle;}
+  .newwin {color:#ffca05; vertical-align:absmiddle;}
+  .bold {font-weight:bold;}
+  .alert {color:#ff4060; font-weight:bold;}
+  .UMK {font-family:Geramond,Times New Roman,Times,Serif; font-size:12pt; color:#ddddff; font-weight:bold; line-height:16px;}
+  .comment{padding-left:20px; font-size:14px; font-style: italic }
+  .consent{margin-bottom:10px;}
+  .title {font-family:Arial,verdana,Luxi Sans,Trebuchet MS,Sans-Serif; font-size:24px; color:#034ea1; font-weight:bold; line-height:28px; letter-spacing:1px; background-color:#ffca05; text-transform:uppercase; display:block; margin:0; padding:12px 25px 10px 25px;}
+  #logo {max-width:442px; margin:10px auto 0 auto;}
+  #panel {background-color:#034ea1; max-width:700px; margin:20px auto 0 auto;}
+  #tresc {margin:0; padding:0px 25px 10px 25px;}
+  #enter {margin:5px 0; padding:5px 0 0 0; border-top:1px solid #ffffff; font-size:16px; font-weight:bold; text-transform:uppercase;}
+  #username {width:90%; max-width:300px;}
+  #password {width:90%; max-width:300px;}
+  #stopka {padding-left:25px; font-size:12px;}
+  .raquo {font-size:14px;}
+@media all and (min-width:0px) {
+  body, td {font-size:12px;}
+  .title {font-size:14px; line-height:16px; padding:12px 10px 10px 10px;}
+  #logo {width:90%; margin:10px 10px 0 10px;}
+  #panel {margin:10px auto 0 auto;}
+  #tresc {padding:0px 10px 10px 10px;}
+  #enter {font-size:12px;}
+  #stopka {padding-left:10px; font-size:12px;}
+  .consenthead {margin-top:15px; margin-bottom:5px;}
+}
+
+@media all and (min-width:442px) {
+  body, td {font-size:14px;}
+  .title {font-size:18px; line-height:20px; padding:12px 20px 10px 20px;}
+  #logo {width:90%; margin:10px auto 0 auto;}
+  #panel {margin:20px auto 0 auto;}
+  #tresc {padding:0px 20px 10px 20px;}
+  #enter {font-size:14px;}
+  #stopka {padding-left:20px; font-size:12px;}
+}
+
+@media all and (min-width:700px) {
+  body, td {font-size:16px;}
+  .title {font-size:24px; line-height:28px; padding:12px 25px 10px 25px;}
+  #logo {max-width:442px; margin:10px auto 0 auto;}
+  #panel {margin:20px auto 0 auto;}
+  #tresc {padding:0px 25px 10px 25px;}
+  #enter {font-size:16px;}
+  #stopka {padding-left:25px; font-size:12px;}
+}
